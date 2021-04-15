@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(<p>Hello</p>,
+let element = <p>Hello</p>
+ReactDOM.render(element,
   document.getElementById('root')
 );
 
